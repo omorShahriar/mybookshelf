@@ -1,14 +1,14 @@
 {
   "main.css": "/mybookshelf/static/css/main.f3aa5965.chunk.css",
-  "main.js": "/mybookshelf/static/js/main.67854c00.chunk.js",
-  "main.js.map": "/mybookshelf/static/js/main.67854c00.chunk.js.map",
+  "main.js": "/mybookshelf/static/js/main.a2abac86.chunk.js",
+  "main.js.map": "/mybookshelf/static/js/main.a2abac86.chunk.js.map",
   "static/js/1.68754c38.chunk.js": "/mybookshelf/static/js/1.68754c38.chunk.js",
   "static/js/1.68754c38.chunk.js.map": "/mybookshelf/static/js/1.68754c38.chunk.js.map",
   "runtime~main.js": "/mybookshelf/static/js/runtime~main.dd061bec.js",
   "runtime~main.js.map": "/mybookshelf/static/js/runtime~main.dd061bec.js.map",
-  "static/media/App.css": "/mybookshelf/static/media/arrow-back.20e8847d.svg",
+  "static/media/App.css": "/mybookshelf/static/media/arrow-drop-down.9d4e3f36.svg",
   "static/css/main.f3aa5965.chunk.css.map": "/mybookshelf/static/css/main.f3aa5965.chunk.css.map",
   "index.html": "/mybookshelf/index.html",
-  "precache-manifest.db3a2c246a99a033e000998f750b2f4a.js": "/mybookshelf/precache-manifest.db3a2c246a99a033e000998f750b2f4a.js",
+  "precache-manifest.57d5336cd2e6549b657ad0ecac9662d9.js": "/mybookshelf/precache-manifest.57d5336cd2e6549b657ad0ecac9662d9.js",
   "service-worker.js": "/mybookshelf/service-worker.js"
 }
