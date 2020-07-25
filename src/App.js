@@ -4,7 +4,7 @@ import BooksApp from "./components/BooksApp";
 import "./App.css";
 import { Router } from "@reach/router";
 import SearchBooks from "./components/SearchBooks";
-
+console.log(process.env.PUBLIC_URL);
 class App extends React.Component {
   state = {
     /**
@@ -49,11 +49,14 @@ class App extends React.Component {
         ) : (
           <Router>
             <BooksApp
-              path="/"
+              path={process.env.PUBLIC_URL + "/"}
               books={this.state.books}
               changeShelf={this.changeShelf}
             />
-            <SearchBooks path="search-book" changeShelf={this.changeShelf} />
+            <SearchBooks
+              path={process.env.PUBLIC_URL + "search-book"}
+              changeShelf={this.changeShelf}
+            />
           </Router>
         )}
       </div>
