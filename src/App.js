@@ -54,7 +54,7 @@ class App extends React.Component {
               changeShelf={this.changeShelf}
             />
             <SearchBooks
-              path={process.env.PUBLIC_URL + "search-book"}
+              path={process.env.PUBLIC_URL + "/search-book"}
               changeShelf={this.changeShelf}
             />
           </Router>
