@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cbefd06a9dfdf812e5ee",
+    "revision": "3878e684b88c86752bbd",
     "url": "/mybookshelf/static/css/main.f3aa5965.chunk.css"
   },
   {
-    "revision": "cbefd06a9dfdf812e5ee",
-    "url": "/mybookshelf/static/js/main.cbefd06a.chunk.js"
+    "revision": "3878e684b88c86752bbd",
+    "url": "/mybookshelf/static/js/main.3878e684.chunk.js"
   },
   {
     "revision": "68754c38635269c96867",
@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/mybookshelf/static/media/add.75d390e5.svg"
   },
   {
-    "revision": "9d4e3f366f039249695de85a30a02b95",
-    "url": "/mybookshelf/static/media/arrow-drop-down.9d4e3f36.svg"
-  },
-  {
     "revision": "20e8847d1eb7759c19b0e30beb8849cf",
     "url": "/mybookshelf/static/media/arrow-back.20e8847d.svg"
   },
   {
-    "revision": "f2e947ec293c14aaeb2b1d1ff52e8a46",
+    "revision": "9d4e3f366f039249695de85a30a02b95",
+    "url": "/mybookshelf/static/media/arrow-drop-down.9d4e3f36.svg"
+  },
+  {
+    "revision": "b1b179e115d4901156749f4c108dba09",
     "url": "/mybookshelf/index.html"
   }
 ];
