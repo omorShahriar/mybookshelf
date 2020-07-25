@@ -4,7 +4,7 @@ import BooksApp from "./components/BooksApp";
 import "./App.css";
 import { Router } from "@reach/router";
 import SearchBooks from "./components/SearchBooks";
-console.log(process.env.PUBLIC_URL);
+console.log(process.env.PUBLIC_URL + "/search-book");
 class App extends React.Component {
   state = {
     /**

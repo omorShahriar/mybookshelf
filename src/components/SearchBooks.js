@@ -24,7 +24,7 @@ class SearchBooks extends React.Component {
     return (
       <div className="search-books">
         <div className="search-books-bar">
-          <Link to="/">
+          <Link to={process.env.PUBLIC_URL}>
             <button className="close-search">Close</button>
           </Link>
 
