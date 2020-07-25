@@ -1,37 +1,51 @@
-import React from 'react'
+import React from "react";
 
-class Book extends React.Component  {
+class Book extends React.Component {
   state = {
-    selectedShelf: this.props.book.shelf
-  } 
-  handleChange = (e) => {
-    this.setState({selectedShelf:e.target.value},() => {
-      this.props.changeShelf({shelf:this.state.selectedShelf,book:this.props.book})
-    })
-  }
+    selectedShelf: this.props.book.shelf || "move"
+  };
+  handleChange = e => {
+    this.setState({ selectedShelf: e.target.value }, () => {
+      this.props.changeShelf({
+        shelf: this.state.selectedShelf,
+        book: this.props.book
+      });
+    });
+  };
   render() {
     return (
       <li>
-            <div className="book"> 
-              <div className="book-top">
-                <div className="book-cover" style={{ width: 128, height: 193, backgroundImage: `url(${this.props.book.imageLinks.thumbnail})`  }}></div>
-                <div className="book-shelf-changer">
-                  <select value={this.state.selectedShelf} onChange={this.handleChange}>
-                    <option value="move" disabled>Move to...</option>
-                    <option value="currentlyReading">Currently Reading</option>
-                    <option value="wantToRead">Want to Read</option>
-                    <option value="read">Read</option>
-                    <option value="none">None</option>
-                  </select>
-                </div>
-              </div>
-              <div className="book-title">{this.props.book.title}</div>
-              <div className="book-authors">{this.props.book.authors}</div>
+        <div className="book">
+          <div className="book-top">
+            <div
+              className="book-cover"
+              style={{
+                width: 128,
+                height: 193,
+                backgroundImage: `url(${this.props.book.imageLinks.thumbnail})`
+              }}
+            />
+            <div className="book-shelf-changer">
+              <select
+                value={this.state.selectedShelf}
+                onChange={this.handleChange}
+              >
+                <option value="move" disabled>
+                  Move to...
+                </option>
+                <option value="currentlyReading">Currently Reading</option>
+                <option value="wantToRead">Want to Read</option>
+                <option value="read">Read</option>
+                <option value="none">None</option>
+              </select>
             </div>
-       </li>
-  )
+          </div>
+          <div className="book-title">{this.props.book.title}</div>
+          <div className="book-authors">{this.props.book.authors}</div>
+        </div>
+      </li>
+    );
   }
-    
 }
 
-export default Book
+export default Book;

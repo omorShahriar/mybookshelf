@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://omorshahriar.github.io/mybookshelf",
   "dependencies": {
+    "@reach/router": "^1.3.4",
     "gh-pages": "^3.1.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
@@ -15,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
