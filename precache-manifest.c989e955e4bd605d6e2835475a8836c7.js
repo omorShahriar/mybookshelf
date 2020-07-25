@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f45cf98bf2661a130dcb",
+    "revision": "80047c305d5c5d294efc",
     "url": "/mybookshelf/static/css/main.f3aa5965.chunk.css"
   },
   {
-    "revision": "f45cf98bf2661a130dcb",
-    "url": "/mybookshelf/static/js/main.f45cf98b.chunk.js"
+    "revision": "80047c305d5c5d294efc",
+    "url": "/mybookshelf/static/js/main.80047c30.chunk.js"
   },
   {
     "revision": "68754c38635269c96867",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/mybookshelf/static/media/arrow-drop-down.9d4e3f36.svg"
   },
   {
-    "revision": "688ba6222f6ee9ce38f6a4a130be97d7",
+    "revision": "67ba105d74b2815bdc897ec192a0e4da",
     "url": "/mybookshelf/index.html"
   }
 ];
